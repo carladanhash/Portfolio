@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="icon.ico" type="image/jpeg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carla Danhash Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9fb;
+    }
+    .sidebar {
+      background-color: #fff;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+      border-right: 1px solid #ddd;
+    }
+    .sidebar img {
+  width: 80%;
+  border-radius: 8px; 
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+    .nav-link {
+        color: #333;
+        border: none;
+    }
+    .nav-link.active {
+        color: #7bace8;
+        background-color: transparent;
+        font-weight: 600;
+        border-left: 4px solid #dcaea2;
+    }
+    .nav-link:hover {
+        color: #7bace8;
+    }
+    .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: filter 0.3s ease;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+    .card-img-top:hover {
+    filter: brightness(100%);
+    }
+
+    /* Reset nav-pills style */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #3066ac !important;
+  background-color: transparent !important;
+  font-weight: 600;
+  border-left: 4px solid #3066ac;
+  border-radius: 0;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+    .tab-content {
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar text-center">
+        <img src="cv.jpeg" alt="Carla Danhash">
+        <h4>Carla Danhash</h4>
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="about-tab" data-bs-toggle="pill" href="#about" role="tab">About</a>
+          <a class="nav-link" id="work-tab" data-bs-toggle="pill" href="#work" role="tab">How I Work</a>
+          <a class="nav-link" id="projects-tab" data-bs-toggle="pill" href="#projects" role="tab">Projects</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-9">
+        <div class="tab-content" id="v-pills-tabContent">
+
+          <!-- About Section -->
+          <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <h2>About Me</h2>
+            <p>Hi! I’m Carla, a software engineering student based in <a href="https://www.google.com/maps/place/Gatineau,+QC" target="_blank">Gatineau, QC</a>,
+                I’m a curious and motivated software engineering student with a strong interest in technology, problem-solving, and data-driven thinking. I enjoy learning new tools, building creative solutions, and working on projects that make an impact.
+            </p>
+            
+
+            
+            <h4 class="mt-4">🎓 Education</h4>
+            <p>Bachelor of Engineering – Software Engineering (CO-OP)<br>University of Ottawa – CGPA: 8.88/10.00<br>Dean’s Honour List – First and Second Year</p>
+            <img src="uni2.png" alt="uOttawa" class="img-fluid mb-3" style="max-width: 200px;">
+
+            <h4 class="mt-4">💼 Experience Highlights</h4>
+              <li><strong>Data Analyst – Transportation Safety Board of Canada</strong><br>Used SAS, SQL, and Power BI to analyze occurrence data and build dashboards.</li>
+              <li><strong>Supervisor – SuperC</strong><br>Led store operations and trained staff, improving customer service and team workflow.</li>
+            
+
+            <h4 class="mt-4">📞 Contact</h4>
+            <p>
+              Feel free to reach out:<br>
+              ✉️ Email: <a href="mailto:cdanh097@uottawa.ca">cdanh097@uottawa.ca</a><br>
+              🔗 LinkedIn: <a href="https://www.linkedin.com/in/carla-danhash/" target="_blank">carla-danhash</a><br>
+              💻 GitHub: <a href="https://github.com/carladanhash" target="_blank">carladanhash</a><br>
+            </p>
+          </div>
+
+          <!-- How I Work Section -->
+          <div class="tab-pane fade" id="work" role="tabpanel">
+            <h2>How I Work</h2>
+
+<p>
+  I’m currently taking <strong>SEG3125 – Designing User Interfaces</strong> at the University of Ottawa. Through this course, I’m learning core design principles like layout, hierarchy, spacing, consistency, and accessibility.
+</p>
+
+<p>
+  I’m also exploring tools and design systems that help bring ideas to life. For example, I’m using:
+  <ul>
+    <li>
+      <a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank">Bootstrap</a> to create responsive and consistent layouts
+    </li>
+    <li>
+      <a href="https://www.nngroup.com/articles/principles-visual-design/" target="_blank">Nielsen Norman Group’s visual design principles</a> to better understand usability and visual clarity
+    </li>
+  </ul>
+</p>
+
+<p>
+  As I learn more about UI design and practice applying these concepts in my assignments, I’ll continue updating this section to reflect my growth and evolving design process.
+</p>
+
+          </div>
+<!-- Projects Section -->
+<div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+  <h2>Upcoming Projects</h2>
+
+  <!-- Design 1 -->
+  <div class="card mb-4 shadow-sm">
+    <img src="Service-Site.png" class="card-img-top" alt="Service Site">
+    <div class="card-body">
+      <h5 class="card-title">Design 1 – Service Site</h5>
+      <p class="card-text text-muted">Coming on May 30</p>
+    </div>
+  </div>
+
+  <!-- Design 2 -->
+  <div class="card mb-4 shadow-sm">
+    <img src="Game.jpeg" class="card-img-top" alt="Game">
+    <div class="card-body">
+      <h5 class="card-title">Design 2 – Game</h5>
+      <p class="card-text text-muted">Coming on June 22</p>
+    </div>
+  </div>
+
+  <!-- Design 3 -->
+  <div class="card mb-4 shadow-sm">
+    <img src="E-Commerce.jpeg" class="card-img-top" alt="E-Commerce">
+    <div class="card-body">
+      <h5 class="card-title">Design 3 – E-Commerce Site</h5>
+      <p class="card-text text-muted">Coming on July 6</p>
+    </div>
+  </div>
+
+  <!-- Design 4 -->
+  <div class="card mb-4 shadow-sm">
+    <img src="BI-Dashboard.jpeg" class="card-img-top" alt="BI Dashboard">
+    <div class="card-body">
+      <h5 class="card-title">Design 4 – BI Dashboard</h5>
+      <p class="card-text text-muted">Coming on July 20</p>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
